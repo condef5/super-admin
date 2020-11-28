@@ -1,5 +1,5 @@
 require "admin_dashboard/engine"
+require "godmin"
 
 module AdminDashboard
-  # Your code goes here...
 end
