@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = AdminDashboard::VERSION
   spec.authors     = ["condef5"]
   spec.email       = ["frank@able.co"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of AdminDashboard."
-  spec.description = "TODO: Description of AdminDashboard."
+  spec.homepage    = "http://condef5.com"
+  spec.summary     = "Summary of Admin::Dashboard."
+  spec.description = "Description of Admin::Dashboard."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -26,6 +26,5 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 6.0.3", ">= 6.0.3.4"
-
-  spec.add_development_dependency "sqlite3"
+  spec.add_dependency "godmin", "~> 2.0.0"
 end
